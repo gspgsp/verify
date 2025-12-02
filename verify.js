@@ -14,7 +14,7 @@
           ⚠️ 此站点不是官方地址，请访问(This site is not an official address, please visit)<br>
           <a href="${OFFICIAL_SITE}" style="color:#007acc;">${OFFICIAL_SITE}</a>
         </div>`
-            setTimeout(() => (location.href = OFFICIAL_SITE), 3000)
+            setTimeout(() => (location.href = OFFICIAL_SITE), 1000)
         }
     } catch (err) {
         console.error('Domain verification failed:', err)
